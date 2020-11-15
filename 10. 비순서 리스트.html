@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>비순서 리스트의 예</title>
+  </head>
+  <body>
+    <h1 align="center">ul과 li 예제</h1>
+    <hr>
+
+    <ul>
+      <li>비순서 리스트(depth=1)
+        <ul>
+          <li>내포되어 있다(depth=2)</li>
+            <ul>
+              <li>불렛은 내포되었을 때 바뀐다.(depth=3)</li>
+            </ul>
+        </ul>
+      </li>
+    </ul>
+
+<p>불렛은 <strong>type</strong> 속성에 의해 제어된다. <strong>type</strong>은 전체 또는 항목마다 새롭게 지정된다.</p>
+
+    <ul type="square">
+      <li>ul에 의해 첫번째 항목이 지정된다.</li>
+      <li type="disc">disc 항목</li>
+      <li type="circle">circle 항목</li>
+      <li type="square">square 항목</li>
+    </ul>
+  </body>
+</html>
